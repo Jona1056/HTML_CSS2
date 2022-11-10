@@ -24,12 +24,12 @@ body{
     background-color:rgba(27, 27, 50, 0.8);
         border: none;
       
-        padding: 2rem auto;
+        padding: 2rem 0;
         border-bottom: 3px;
   }
   label{
     display:block;
-    margin: 0.5rem 20;
+    margin: 0.5rem 0;
     color:white;
    
   }
