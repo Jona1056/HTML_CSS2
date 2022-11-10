@@ -25,6 +25,7 @@ body{
         border: none;
       
         padding: 2rem 20;
+        border-bottom: 3px;
   }
   label{
     display:block;
@@ -49,7 +50,7 @@ body{
     }
     .inline {
       width: unset;
-      margin: 0 0.5em  ;
+      margin: 0 0.5em 0 0;
       vertical-align: middle;
     }
     input[type="submit"] {
