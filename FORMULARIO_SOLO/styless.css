@@ -87,5 +87,13 @@ body{
       color:white;
       min-width: 320px;
     }
+    input[type="radio"]{
+      height: 15px;
+      width: 15px;
   
+  }
+  input[type="checkbox"]{
+      height: 15px;
+      width: 15px;
+  }
      
