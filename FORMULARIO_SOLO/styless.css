@@ -53,8 +53,7 @@ body{
       margin: 10px 0 0 0;
       width: 100%;
       min-height: 2em;
-      padding-left: 35px;
-      padding-right: 10px
+
     }
     input{
         font-size: 15px;
@@ -64,6 +63,24 @@ body{
         height: 35px;
         min-height: 2em;
     }
+    textarea{
+      font-size: 15px;
+      margin: 10px 0 0 0 ;
+      width: 95%;
+      border-radius: 5px;
+      height: 35px;
+      min-height: 2em;
+
+    }
+    select{
+      font-size: 15px;
+      margin: 10px 0 0 0 ;
+      width: 95%;
+      border-radius: 5px;
+      height: 35px;
+      min-height: 2em;
+    }
+    
     .inline {
       width: unset;
       margin: 0 0.5em  ;
