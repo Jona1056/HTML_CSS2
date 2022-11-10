@@ -22,7 +22,7 @@ body{
     background-color:rgba(27, 27, 50, 0.8);
         border: none;
         margin:auto;
-        
+        padding: 2rem 20;
   }
   label{
     display:block;
