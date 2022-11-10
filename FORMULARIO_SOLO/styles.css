@@ -25,6 +25,10 @@ body{
         border: none;
       
         padding: 1rem center;
+        margin-left: auto;
+        margin-right: auto;
+   
+        max-width: 500px;
   }
   label{
     display:block;
