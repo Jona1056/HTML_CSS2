@@ -24,7 +24,7 @@ body{
     background-color:rgba(27, 27, 50, 0.8);
         border: none;
       
-        padding: 2rem 20;
+        padding: 2rem auto;
         border-bottom: 3px;
   }
   label{
