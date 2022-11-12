@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label {
+    border: 2px solid black; /*color de linea*/
+    width: 270px; /*tamaño del div*/
+    margin:20px auto;/*posicion del div*/
+    padding:0 7px;/*tamaño*/
+  }
