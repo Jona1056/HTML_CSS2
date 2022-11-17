@@ -1,11 +1,16 @@
 img {
-    display: block;
+    /*display: block;
     height: 400px;
     margin: 0 auto;
     width: 900px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;*/
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
+
 
 body {
     font-family: "fantasy:Papyrus";
