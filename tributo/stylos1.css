@@ -12,7 +12,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #A01D23;
+    color: #20232A;
     margin: 0;
     background-color: #20232A;
     margin-bottom: 0%;
@@ -44,22 +44,21 @@ figure{
 }
 
 .introduccion{
-    background:#20232A;
+    color:#F4F4EF;
     margin-top: -40PX;
-  
+    background-color: #A01D23;
     font-size: 1.17em;
     font-family: "fantasy:Papyrus"
 }
 .definicion{
     color:#F4F4EF;
-       background:#20232A;
+    background-color: #A01D23;
        font-size: 1.17em;
     font-family: "fantasy:Papyrus";
-    
+    font-weight: bold;
 
 }
 
 .estadisticas{
-    color:#F4F4EF;
-    font-weight: bold;
+    color:#20232A
 }
