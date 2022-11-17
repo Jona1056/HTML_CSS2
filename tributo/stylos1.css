@@ -22,7 +22,7 @@ body {
     background-color: #20232A;
     margin-bottom: 0%;
 }
-main{
+#main{
 
         margin: 30px 8px;
         padding: 15px; 
@@ -30,6 +30,9 @@ main{
         background: #ACBEBE;
         
 
+}
+main{
+    display: block;
 }
 figure{
     display: block;
