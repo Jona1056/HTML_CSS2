@@ -1,8 +1,10 @@
 img {
-    max-width: 100%;
     display: block;
-    height: auto;
+    height: 400px;
     margin: 0 auto;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 body {
@@ -10,11 +12,10 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #20232A;
+    color: #A01D23;
     margin: 0;
     background-color: #20232A;
     margin-bottom: 0%;
-    padding: 20%;
 }
 main{
 
@@ -22,7 +23,6 @@ main{
         padding: 15px; 
         border-radius: 50px;
         background: #ACBEBE;
-        display: block;
         
 
 }
@@ -44,18 +44,17 @@ figure{
 }
 
 .introduccion{
-    background:#A01D23;
+    background:#20232A;
     margin-top: -40PX;
-    color: #F4F4EF;
+  
     font-size: 1.17em;
     font-family: "fantasy:Papyrus"
 }
 .definicion{
     color:#F4F4EF;
-    background:#A01D23;
+       background:#20232A;
        font-size: 1.17em;
     font-family: "fantasy:Papyrus";
-    
     
 
 }
