@@ -1,25 +1,29 @@
 img {
-    max-width: 100%;
     display: block;
-    height: auto;
+    height: 400px;
     margin: 0 auto;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: "fantasy:Papyrus";
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #333;
+    color: #20232A;
     margin: 0;
-    background-color: #26549B;
+    background-color: #20232A;
+    margin-bottom: 0%;
 }
 main{
 
         margin: 50px 20px;
         padding: 15px; 
-        border-radius: 5px;
-        background: #ee4242;
+        border-radius: 50px;
+        background: #ACBEBE;
+        
 
 }
 figure{
@@ -30,7 +34,33 @@ figure{
     margin-inline-end: 40px;
 }
 #img-div {
-    background: white;
+    background:#20232A;
     padding: 10px;
+    width:1000px;
+    height: auto;
     margin: 0;
+    margin: auto;
+   
+}
+
+.introduccion{
+    background:#A01D23;
+    margin-top: -40PX;
+    color: #F4F4EF;
+    font-size: 1.17em;
+    font-family: "fantasy:Papyrus"
+}
+.definicion{
+    color:#F4F4EF;
+    background:#A01D23;
+       font-size: 1.17em;
+    font-family: "fantasy:Papyrus";
+    
+    
+
+}
+
+.estadisticas{
+    color:#F4F4EF;
+    font-weight: bold;
 }
