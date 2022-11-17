@@ -24,6 +24,11 @@ body {
 }
 body{
     display: block;
+
+    
+}
+h1{
+    font-size: 1.0em;
 }
 #main{
 
@@ -31,6 +36,8 @@ body{
         padding: 15px; 
         border-radius: 50px;
         background: #ACBEBE;
+        margin-left: 30px;
+        margin-right: 30px;
         
 
 }
@@ -56,20 +63,23 @@ figure{
 
 .introduccion{
     color:#F4F4EF;
-    margin-top: -40PX;
+    margin-top: -10PX;
     background-color: #A01D23;
-    font-size: 1.17em;
-    font-family: "fantasy:Papyrus"
+
+    font-family: "fantasy:Papyrus";
+    font-size: 0.9em;
 }
 .definicion{
     color:#F4F4EF;
     background-color: #A01D23;
-       font-size: 1.17em;
+    font-size: 0.9em;
     font-family: "fantasy:Papyrus";
-    font-weight: bold;
+
 
 }
 
 .estadisticas{
-    color:#20232A
+    color:#20232A;
+    font-size: 1.0em;
+    margin:50px 0;
 }
