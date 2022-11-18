@@ -75,6 +75,7 @@ figure{
 
     font-family: "fantasy:Papyrus";
     font-size: 0.9em;
+    display: block;
 }
 .definicion{
     color:#F4F4EF;
@@ -83,6 +84,7 @@ figure{
     font-family: "fantasy:Papyrus";
     border-radius: 50px;
     display: flexbox;
+    display: block;
 }
 
 .messi{
