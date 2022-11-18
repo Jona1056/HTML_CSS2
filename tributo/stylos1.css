@@ -81,9 +81,15 @@ figure{
     background-color: #A01D23;
     font-size: 0.9em;
     font-family: "fantasy:Papyrus";
-
+    border-radius: 50px;
+}
+.messi{
+    border-radius: 50px;
 
 }
+
+
+
 
 .estadisticas{
     color:#20232A;
@@ -140,4 +146,8 @@ h3 {
 a{
     color:#A01D23 ;
     display: flexbox;
+}
+
+.introduccion{
+    border-radius: 50px;
 }
