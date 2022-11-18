@@ -69,17 +69,18 @@ figure{
 }
 
 .introduccion{
-    color:#F4F4EF;
+    color: #A01D23;
     margin-top: -10PX;
-    background-color: #A01D23;
+    font-weight: bold;
+  
 
     font-family: "fantasy:Papyrus";
     font-size: 0.9em;
     display: block;
 }
 .definicion{
-    color:#F4F4EF;
-    background-color: #A01D23;
+    color: #A01D23;
+    font-weight: bold;
     font-size: 0.9em;
     font-family: "fantasy:Papyrus";
     border-radius: 50px;
