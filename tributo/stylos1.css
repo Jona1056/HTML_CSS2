@@ -82,7 +82,9 @@ figure{
     font-size: 0.9em;
     font-family: "fantasy:Papyrus";
     border-radius: 50px;
+    display: flexbox;
 }
+
 .messi{
     border-radius: 50px;
 
@@ -150,4 +152,5 @@ a{
 
 .introduccion{
     border-radius: 10%;
+    display: flexbox;
 }
