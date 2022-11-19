@@ -4,7 +4,7 @@ html, body {
     background-color: #7a4040;/* color de fondo*/
     font-family: 'Open Sans', Arial, sans-serif; /*tipo de letra*/
     line-height: 1.5; /* separacion entre lineas*/
-}
+}   
 
 #navbar {
     position: fixed; /* con esto el texto de la derecha queda al lado*/
@@ -85,5 +85,9 @@ section{
 }
 
 html {
+    display: flex;
+}
+
+main {
     display: block;
 }
