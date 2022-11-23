@@ -1,6 +1,7 @@
 body {
     background-color: #6FB98F;
     font-family: 'Lato', sans-serif;
+
 }
 
 * {
@@ -10,16 +11,15 @@ body {
 }
 #page-wrapper {
     position: relative;
-}
-div {
-    display: block;
+   
 }
 
+
 header {
-    position: fixed;
+ 
     top: 0;
     min-height: 75px;
-    padding: 0px 50px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,7 +37,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: -10px;
+    margin-left: 20px;
 }
 nav {
     font-weight: 400;
@@ -51,12 +51,11 @@ nav > ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 li {
     list-style: none;
-    font-size: 25px;
-    margin-left: -100px;
+ 
     font-weight: bold;
     
 
@@ -65,14 +64,86 @@ li {
   
  
 }
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
 a {
     color: BLACK;
     text-decoration: none;
 }
+
 element.style {
     vertical-align: inherit;
 }
 
-#li1{
-    margin-left: -200px;
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+body{
+    display:block;
+}
+
+/*@media only screen and (max-width:500px){
+  
+    li{
+      font-size:0.3rem;
+    }
+    .logo {
+
+        max-width:100%;
+        margin: center;
+
+        margin-left: -85px;
+        margin-top: -91px;
+      
+    }
+    header {
+
+        top: 0;
+        min-height: 150px;
+        padding: 75px 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2C7873;
+    }
+    #li1{
+        margin-right: 100px;
+    }
+    
+  }*/
+@media (max-width: 875px){
+nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    padding: 0 50px;
+}
+header {
+    flex-wrap: wrap;
+}
+.logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+}
+.logo > img {
+    margin: 0 auto;
+}
+nav > ul {
+    flex-direction: column;
+}
+nav li {
+    padding-bottom: 5px;
+}
+
 }
