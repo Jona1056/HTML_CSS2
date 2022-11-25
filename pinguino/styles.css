@@ -48,6 +48,18 @@
     transform: scale(5);
     cursor: not-allowed;
   }
+  .mommy{
+    width: 250px;
+    height: 200px;
+    position:absolute;
+    z-index: 5;
+    bottom:100px;
+    left:140px;
+    transition: transform 4s ease-in-out 0ms;
+  }
+  .mommy:active{
+    transform: scale(-2);
+  }
   
   .huggy{
     width: 300px;
