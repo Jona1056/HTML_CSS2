@@ -49,6 +49,18 @@
     cursor: not-allowed;
   }
   
+  .huggy{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    right:150px;
+    transition: transform 4s ease-in-out 0ms;
+    z-index: 5;
+  }
+  .huggy:active{
+    transform: scale(-1);
+
+  }
   .penguin {
     width: 300px;
     height: 300px;
